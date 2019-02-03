@@ -43,6 +43,7 @@
 #include <deque>
 #include <iostream>
 #include <functional>
+#include <cstring>
 
 namespace pthread {
     class err {
