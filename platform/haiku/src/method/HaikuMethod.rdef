@@ -1,0 +1,2 @@
+resource app_signature "application/x-vnd.AquaSKK-InputMethod";
+resource app_name_catalog_entry "x-vnd.AquaSKK-InputMethod:System name:aquaskk";

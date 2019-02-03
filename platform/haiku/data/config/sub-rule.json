@@ -1,0 +1,40 @@
+[
+{
+"id": "period",
+"rule": "period.rule",
+"description": "句点をピリオド(．)"
+},
+{
+"id": "comma",
+"rule": "comma.rule",
+"description": "読点をコンマ(，)"
+},
+{
+"id": "azik",
+"rule": "azik.rule",
+"keymap": "azik.conf",
+"description": "拡張ローマ字入力「AZIK」(JIS配列用)"
+},
+{
+"id": "azik_us",
+"rule": "azik_us.rule",
+"keymap": "azik.conf",
+"description": "拡張ローマ字入力「AZIK」(US配列用)"
+},
+{
+"id": "act",
+"rule": "act.rule",
+"keymap": "act.conf",
+"description": "拡張ローマ字入力「ACT」"
+},
+{
+"id": "yakumono",
+"rule": "yakumono-ippai.rule",
+"description": "SKK日本語入力FEP/Egg互換の記号入力"
+},
+{
+"id": "old-kana",
+"rule": "old-kana.rule",
+"description": "旧かな用ルール(wi,we,kwa,gwa)"
+}
+]

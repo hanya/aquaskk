@@ -1,0 +1,71 @@
+1	English	x-vnd.AquaSKK-Preference	393518953
+Select location...	Preference		Select location...
+Enable	Preference		Enable
+Inline conversion	Preference		Inline conversion
+Horizontal	Preference		Horizontal
+Dictionary	Preference		Dictionary
+Delete okuri when quit	Preference		Delete okuri when quit
+Show annotation	Preference		Show annotation
+Numeric conversion	Preference		Numeric conversion
+AquaSKK Settings	Preference		AquaSKK Settings
+Reject connection out of localhost	Preference		Reject connection out of localhost
+Show input mode icon	Preference		Show input mode icon
+Max inline candidates	Preference		Max inline candidates
+Local	Preference		Local
+Display	Preference		Display
+Cancel	Preference		Cancel
+Start of okuri	Preference		Start of okuri
+Fixing	Preference		Fixing
+Annotation	Preference		Annotation
+Filter	Preference		Filter
+Other	Preference		Other
+SKK download dictionary (UTF-8)	Preference		SKK download dictionary (UTF-8)
+Candidate labels	Preference		Candidate labels
+Version	Preference		Version
+Active	Preference		Active
+Candidate direction	Preference		Candidate direction
+Show up to	Preference		Show up to
+Special conversion	Preference		Special conversion
+Completion	Preference		Completion
+Beep on registration	Preference		Beep on registration
+SKK dictionary (EUC-JP)	Preference		SKK dictionary (EUC-JP)
+Update	Preference		Update
+Type	Preference		Type
+skkserv	Preference		skkserv
+Input	Preference		Input
+Inline backspace implies commit	Preference		Inline backspace implies commit
+Completion filter	Preference		Completion filter
+Below	Preference		Below
+Above	Preference		Above
+Handle recursive entry as okuri	Preference		Handle recursive entry as okuri
+Dynamic completion	Preference		Dynamic completion
+Okuri	Preference		Okuri
+Down	Preference		Down
+Vertical	Preference		Vertical
+Display shortest match of kana conversion	Preference		Display shortest match of kana conversion
+Program dictionary	Preference		Program dictionary
+Extension	Preference		Extension
+Size	Preference		Size
+All files (*.*)	Preference		All files (*.*)
+User dictionary	Preference		User dictionary
+Add	Preference		Add
+System	Preference		System
+Candidate font	Preference		Candidate font
+Division	Preference		Division
+Misc	Preference		Misc
+ignore characters below	Preference		ignore characters below
+Suppress new line on commit	Preference		Suppress new line on commit
+Candidates	Preference		Candidates
+Remove	Preference		Remove
+Description	Preference		Description
+Convert with okuri	Preference		Convert with okuri
+Location	Preference		Location
+skkserv dictionary	Preference		skkserv dictionary
+Roman to kana conversion	Preference		Roman to kana conversion
+SKK download dictionary (EUC-JP)	Preference		SKK download dictionary (EUC-JP)
+Change...	Preference		Change...
+SKK dictionary (UTF-8)	Preference		SKK dictionary (UTF-8)
+Conversion	Preference		Conversion
+Use custom font	Preference		Use custom font
+Up	Preference		Up
+port	Preference		port

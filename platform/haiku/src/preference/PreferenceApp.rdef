@@ -1,0 +1,3 @@
+resource app_signature "application/x-vnd.AquaSKK-Preference";
+resource app_name_catalog_entry "x-vnd.AquaSKK-Preference:System name:aquaskk_preference";
+resource app_flags B_EXCLUSIVE_LAUNCH;

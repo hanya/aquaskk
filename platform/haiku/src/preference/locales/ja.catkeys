@@ -1,0 +1,72 @@
+1	English	x-vnd.AquaSKK-Preference	393518953
+Select location...	Preference		場所の選択...
+Enable	Preference		有効
+Inline conversion	Preference		インライン変換
+Horizontal	Preference		横
+Dictionary	Preference		辞書
+Delete okuri when quit	Preference		キャンセルで送り仮名を削除
+Show annotation	Preference		注釈表示
+Numeric conversion	Preference		数値変換
+AquaSKK Settings	Preference		AquaSKK 設定
+Reject connection out of localhost	Preference		localhost 以外からの接続を拒否
+Show input mode icon	Preference		入力モードアイコンを表示
+Max inline candidates	Preference		最大インライン候補数
+Local	Preference		ローカル
+Display	Preference		表示
+Cancel	Preference		キャンセル
+Start of okuri	Preference		送り仮名の開始
+Fixing	Preference		確定
+Annotation	Preference		注釈
+Filter	Preference		フィルター
+Other	Preference		その他
+SKK download dictionary (UTF-8)	Preference		SKK ダウンロード辞書 (UTF-8)
+Candidate labels	Preference		候補ラベル
+Version	Preference		バージョン
+Active	Preference		有効
+Candidate direction	Preference		候補ウィンドウの向き
+Show up to	Preference		最大表示数
+Special conversion	Preference		特殊変換
+Completion	Preference		補完
+Beep on registration	Preference		単語登録を開始する時に音で警告
+SKK dictionary (EUC-JP)	Preference		SKK 辞書 (EUC-JP)
+Update	Preference		辞書更新
+Type	Preference		種類
+skkserv	Preference		skkserv
+Input	Preference		入力
+Inline backspace implies commit	Preference		インライン変換時のバックスペースで確定
+Completion filter	Preference		候補フィルター
+Below	Preference		下
+Above	Preference		上
+Handle recursive entry as okuri	Preference		見出し語の再入を送り仮名と見なす
+Dynamic completion	Preference		ダイナミック変換
+Okuri	Preference		送り仮名
+Down	Preference		下へ
+Vertical	Preference		縦
+Display shortest match of kana conversion	Preference		確定前の変換候補を表示
+Program dictionary	Preference		プログラム辞書
+Extension	Preference		拡張
+Size	Preference		サイズ
+All files (*.*)	Preference		すべてのファイル (*.*)
+User dictionary	Preference		ユーザー辞書
+Add	Preference		追加
+System	Preference		システム
+Candidate font	Preference		候補フォント
+Division	Preference		区分
+Misc	Preference		その他
+ignore characters below	Preference		文字以下を無視
+Suppress new line on commit	Preference		Enter による確定で改行を抑制
+Candidates	Preference		候補表示位置
+Remove	Preference		削除
+Description	Preference		説明
+Convert with okuri	Preference		送り仮名あり変換
+Location	Preference		場所
+skkserv dictionary	Preference		skkserv 辞書
+Roman to kana conversion	Preference		ローマ字仮名変換
+SKK download dictionary (EUC-JP)	Preference		SKK ダウンロード辞書 (EUC-JP)
+Change...	Preference		変更...
+SKK dictionary (UTF-8)	Preference		SKK 辞書 (UTF-8)
+Conversion	Preference		変換
+Use custom font	Preference		カスタムフォント使用
+Up	Preference		上へ
+port	Preference		ポート
+
