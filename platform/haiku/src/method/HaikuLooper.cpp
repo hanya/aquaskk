@@ -133,7 +133,7 @@ HaikuLooper::~HaikuLooper()
     delete fCandidateWindow;
     delete fAnnotator;
     delete fDynamicCompletor;
-    delete fModeIndicator;
+    // fModeIndicator is deleted while fSession destruction
     delete fSkkserv;
 }
 
