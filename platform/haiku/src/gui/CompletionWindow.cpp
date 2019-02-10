@@ -58,8 +58,8 @@ void CompletionWindow::MessageReceived(BMessage* msg)
                 float height = 0;
                 if (msg->FindPoint("be:location_reply", 1, &point) == B_OK &&
                     msg->FindFloat("be:height_reply", 1, &height) == B_OK) {
-                } else if (msg->FindPoint("be:location_reply", 1, &point) == B_OK &&
-                           msg->FindFloat("be:height_reply", 1, &height) == B_OK) {
+                } else if (msg->FindPoint("be:location_reply", 0, &point) == B_OK &&
+                           msg->FindFloat("be:height_reply", 0, &height) == B_OK) {
                 } else {
                     break;
                 }
