@@ -30,7 +30,8 @@ def GetBuildDirPath(platform):
 
 def RunOrRaise(args):
     p = subprocess.Popen(args)
-    p.wait()
+    if p.wait() != 0:
+        raise Exception("Error: " + ' '.join(args))
 
 
 def GetGypFileNames():
