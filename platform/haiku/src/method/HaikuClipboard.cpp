@@ -35,7 +35,9 @@ const std::string HaikuClipboard::PasteString() {
         BMessage *clip = be_clipboard->Data();
         clip->FindData("text/plain", B_MIME_TYPE, (const void **)&str, &len);
         be_clipboard->Unlock();
-        return std::string(str);
+        if (len > 0) {
+            return std::string(str);
+        }
     }
     return "";
 }
