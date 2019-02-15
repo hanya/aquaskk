@@ -37,10 +37,19 @@ HaikuMessenger::HaikuMessenger(HaikuLooper* looper)
 }
 
 
+HaikuMessenger::~HaikuMessenger()
+{
+    fMessageWindow->Quit();
+}
+
+
 void HaikuMessenger::SendMessage(const std::string& msg)
 {
     fMessage = msg;
     _Show();
+#if DEBUG
+    fLooper->_SendLog(msg.c_str());
+#endif
 }
 
 

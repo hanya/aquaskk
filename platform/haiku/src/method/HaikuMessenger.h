@@ -37,6 +37,7 @@ class HaikuMessenger : public SKKMessenger
 {
 public:
     HaikuMessenger(HaikuLooper* looper);
+    virtual ~HaikuMessenger();
 
     virtual void SendMessage(const std::string& msg);
     virtual void Beep();
