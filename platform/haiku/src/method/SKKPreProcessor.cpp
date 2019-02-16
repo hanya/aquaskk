@@ -49,21 +49,14 @@ void SKKPreProcessor::Patch(const std::string& path) {
 
 
 SKKEvent SKKPreProcessor::Execute(const BMessage* msg) {
-    // todo
     int32 key = msg->GetInt32("key", 0); // raw keycode
     uint8 byte = (uint8)msg->GetInt8("byte", 0); // ascii code
     uint32 modifiers = (uint32)msg->GetInt32("modifiers", 0);
 
     int mods = 0;
 
-    // todo, shift
     if (modifiers &
         (B_LEFT_SHIFT_KEY | B_RIGHT_SHIFT_KEY | B_SHIFT_KEY)) {
-        // check set of shift keys is enough
-        //if (std::isgraph(byte)) {
-            // what should we do here? do we need this?
-        //}
-
         mods += SKKKeyState::SHIFT;
     }
 
@@ -76,10 +69,6 @@ SKKEvent SKKPreProcessor::Execute(const BMessage* msg) {
         (B_CONTROL_KEY | B_LEFT_CONTROL_KEY | B_RIGHT_CONTROL_KEY)) {
         mods += SKKKeyState::ALT;
     }
-
-    // todo, meta?
-
-    // check other key
 
     SKKEvent result = fKeymap.Fetch(byte, key, mods);
 
