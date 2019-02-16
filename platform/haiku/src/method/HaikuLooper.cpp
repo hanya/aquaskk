@@ -405,6 +405,8 @@ void HaikuLooper::SendMessage(const std::string& str)
 
 std::string HaikuLooper::SelectedString()
 {
+    /*
+    // not workin, crash
     int32 start, end;
     if (_GetSelection(&start, &end)) {
         BMessage message(B_GET_PROPERTY);
@@ -422,6 +424,7 @@ std::string HaikuLooper::SelectedString()
             }
         }
     }
+    */
     return "";
 }
 
